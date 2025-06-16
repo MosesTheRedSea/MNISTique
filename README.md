@@ -31,7 +31,10 @@ To get started with **MNISTique**, clone the repo and install the necessary depe
 
 ```bash
 git clone https://github.com/yourusername/MNISTique.git
+
 cd MNISTique
+
 pip install -r requirements.txt
+
 python train.py
 ```
