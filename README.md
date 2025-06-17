@@ -51,7 +51,7 @@ MNISTique V1 is a neural network project built for handwritten digit classificat
 To get started with **MNISTique**, clone the repo and install the necessary dependencies:
 
 ```bash
-git clone https://github.com/yourusername/MNISTique.git
+git clone https://github.com/MosesTheRedSea/MNISTique.git
 
 cd MNISTique
 ```
