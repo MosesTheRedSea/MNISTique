@@ -6,11 +6,31 @@ MNISTique V1 is a neural network project built for handwritten digit classificat
 
 ## Table of Contents
 
+## Table of Contents
+- [Introduction](#introduction)
+- [Problem](#problem)
+- [Motivation](#motivation)
+- [Overview](#overview)
 - [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Getting Started](#getting-started)
-  
-## Features
+- [Installation](#installation)
+- [Usage](#usage)
+- [Training the Model](#training-the-model)
+- [Running Inference](#running-inference)
+- [Dataset](#dataset)
+- [Results](#results)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+
+### Introduction
+
+### Problem
+
+### Motivation
+
+### Overview
+
+### Features
 
 - Fully connected neural network for digit classification  
 - Trained on the MNIST dataset using supervised learning  
@@ -18,14 +38,15 @@ MNISTique V1 is a neural network project built for handwritten digit classificat
 - Configurable hyperparameters (e.g., learning rate, epochs, batch size)  
 - Evaluation metrics including accuracy and loss tracking
 
-## Technologies Used
+### Technologies Used
 
 - Python  
 - NumPy  
 - Matplotlib (for visualization)  
 - *(Optional)* PyTorch / TensorFlow *(if used for comparison or extension)*
 
-## Getting Started
+  
+### Installation
 
 To get started with **MNISTique**, clone the repo and install the necessary dependencies:
 
@@ -33,8 +54,22 @@ To get started with **MNISTique**, clone the repo and install the necessary depe
 git clone https://github.com/yourusername/MNISTique.git
 
 cd MNISTique
-
-pip install -r requirements.txt
-
-python train.py
 ```
+
+### Usage
+
+### Training the Model
+
+### Running Inference
+
+### Dataset
+
+### Results
+
+### Contributing
+
+### License
+
+### Contact 
+
+For any issues or inquiries, please open an issue or contact **[Moses Adewolu]()** at **mosesoluwatobiadewolu@gmail.com**.
