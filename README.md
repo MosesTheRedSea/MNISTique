@@ -120,10 +120,3 @@ Project Link: [https://github.com/MosesTheRedSea/MNISTique.git](https://github.c
 
 You can acknowledge any individual, group, institution or service.
 * [Catia Silva](https://faculty.eng.ufl.edu/catia-silva/)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Img Shields](https://shields.io)
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Pages](https://pages.github.com)
-* [Animate.css](https://daneden.github.io/animate.css)
-* [Loaders.css](https://connoratherton.com/loaders)
-* [Slick Carousel](https://kenwheeler.github.io/slick)
