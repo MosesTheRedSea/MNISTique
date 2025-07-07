@@ -5,18 +5,10 @@
 <br />
 <p align="center">
   <h3 align="center">MNISTique</h3>
-
   <p align="center">
-    MNISTque is a lightweight yet powerful neural network designed to classify handwritten digits from the classic MNIST dataset with high accuracy and efficiency
-    <br />
-    <a href="https://github.com/catiaspsilva/README-template/blob/main/images/docs.txt"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="#usage">View Demo</a>
-    ·
+    <a href="https://github.com/catiaspsilva/README-template/blob/main/images/docs.txt"><strong>Documentaton</strong></a>
     <a href="https://github.com/catiaspsilva/README-template/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/catiaspsilva/README-template/issues">Request Feature</a>
+    <a href="https://github.com/catiaspsilva/README-template/issues">Add New Feature</a>
   </p>
 </p>
 
