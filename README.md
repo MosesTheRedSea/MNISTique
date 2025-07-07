@@ -20,36 +20,6 @@
   </p>
 </p>
 
-
-
-<!-- TABLE OF CONTENTS -->
-<details open="open">
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#dependencies">Dependencies</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#authors">Authors</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
-  </ol>
-</details>
-
-
-
 <!-- ABOUT THE PROJECT -->
 ## Introduction
 
@@ -63,6 +33,18 @@ You can include tables or images to summarize your results when and if appropria
 ## Getting Started
 
 In this section you should provide instructions on how to use this repository to recreate your project locally.
+
+```
+├── templates/                    # Templates and guidelines
+│   ├── basic_ml_design_doc.md   # Basic template for ML design docs
+│   └── design_doc_checklist.md  # Review checklist for design docs
+├── Design_Doc_Examples/         # Example design documents
+│   ├── EN/                      # English examples
+│   └── [other languages]/       # Examples in other languages
+├── BookOutline.md              # Book chapter summaries and key concepts
+├── CONTRIBUTING.md             # Contribution guidelines
+└── README.md                   # This file
+```
 
 ### Dependencies
 
