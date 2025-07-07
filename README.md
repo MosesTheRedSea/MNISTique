@@ -1,73 +1,155 @@
-# MNISTique
 
 ![MNISTique Logo](https://github.com/MosesTheRedSea/MNISTique/blob/main/Mystique.jpg)
 
-MNISTique V1 is a neural network project built for handwritten digit classification using the MNIST dataset. Designed as an educational and practical exploration of deep learning fundamentals, the project demonstrates how a feedforward neural network can effectively learn to identify digits (0–9) from grayscale 28x28 pixel images.
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <h3 align="center">MNISTique</h3>
 
-## Table of Contents
-- [Introduction](#introduction)
-- [Problem](#problem)
-- [Motivation](#motivation)
-- [Overview](#overview)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Training the Model](#training-the-model)
-- [Running Inference](#running-inference)
-- [Dataset](#dataset)
-- [Results](#results)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+  <p align="center">
+    MNISTque is a lightweight yet powerful neural network designed to classify handwritten digits from the classic MNIST dataset with high accuracy and efficiency
+    <br />
+    <a href="https://github.com/catiaspsilva/README-template/blob/main/images/docs.txt"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="#usage">View Demo</a>
+    ·
+    <a href="https://github.com/catiaspsilva/README-template/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/catiaspsilva/README-template/issues">Request Feature</a>
+  </p>
+</p>
 
-### Introduction
 
-### Problem
 
-### Motivation
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#dependencies">Dependencies</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#authors">Authors</a></li>
+    <li><a href="#acknowledgements">Acknowledgements</a></li>
+  </ol>
+</details>
 
-### Overview
 
-### Features
 
-- Fully connected neural network for digit classification  
-- Trained on the MNIST dataset using supervised learning  
-- Clean and modular codebase for easy understanding and experimentation  
-- Configurable hyperparameters (e.g., learning rate, epochs, batch size)  
-- Evaluation metrics including accuracy and loss tracking
+<!-- ABOUT THE PROJECT -->
+## Introduction
 
-### Technologies Used
+- MNISTique V1 is a neural network project built for handwritten digit classification using the MNIST dataset. Designed as an educational and practical exploration of deep learning fundamentals, the project demonstrates how a feedforward neural network can effectively learn to identify digits (0–9) from grayscale 28x28 pixel images.
 
-- Python  
-- NumPy  
-- Matplotlib (for visualization)  
-- *(Optional)* PyTorch / TensorFlow *(if used for comparison or extension)*
+[Here goes the title with hyperlink](https://github.com/catiaspsilva/README-template)
 
-  
+You can include tables or images to summarize your results when and if appropriate.
+
+<!-- GETTING STARTED -->
+## Getting Started
+
+In this section you should provide instructions on how to use this repository to recreate your project locally.
+
+### Dependencies
+
+Here, list all libraries, packages and other dependencies that need to be installed to run your project. Include library versions and how they should be installed if a special requirement is needed.
+
+For example, this is how you would list them:
+* Transformers 4.8.0
+  ```sh
+  conda install -c conda-forge transformers
+  ```
+* OpenCV 4.5.2
+  ```sh
+  conda install -c conda-forge opencv
+  ```
+### Alternative: Export your Environment
+
+Alternatively, you can export your Python working environment, push it to your project's repository and allow users to clone it locally. This way, anyone can install it and they will have all dependencies needed. Here is how you export a copy of your Python environment:
+
+  ```sh
+  conda env export > requirements.yml
+  ```
+
+The user will be able to recreate it using:
+
+  ```sh
+  conda env create -f requirements.yml
+  ```
+
 ### Installation
 
-To get started with **MNISTique**, clone the repo and install the necessary dependencies:
+1. Clone the repo
+   ```sh
+   git clone https://github.com/catiaspsilva/README-template.git
+   ```
+2. Setup (and activate) your environment
+  ```sh
+  conda env create -f requirements.yml
+  ```
 
-```bash
-git clone https://github.com/MosesTheRedSea/MNISTique.git
+<!-- USAGE EXAMPLES -->
+## Usage
 
-cd MNISTique
-```
+Use this space to show useful examples of how a project can be used. For course projects, include which file to execute and the format of any input variables.
 
-### Usage
+Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
-### Training the Model
+_For more examples, please refer to the [Documentation](https://example.com)_
 
-### Running Inference
+<!-- ROADMAP -->
+## Roadmap
 
-### Dataset
+See the [open issues](https://github.com/catiaspsilva/README-template/issues) for a list of proposed features (and known issues).
 
-### Results
+<!-- CONTRIBUTING -->
+## Contributing
 
-### Contributing
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-### License
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-### Contact 
 
-For any issues or inquiries, please open an issue or contact **[Moses Adewolu]()** at **mosesoluwatobiadewolu@gmail.com**.
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+
+<!-- Authors -->
+## Authors
+Moses Adewolu - [@MosesTheRedSea](https://twitter.com/MosesTheRedSea) [mosesoluwatobiadewolu@gmail.com](mosesoluwatobiadewolu@gmail.com)
+
+Project Link: [https://github.com/MosesTheRedSea/MNISTique.git](https://github.com/MosesTheRedSea/MNISTique.git)
+
+
+<!-- ACKNOWLEDGEMENTS -->
+## Acknowledgements
+
+You can acknowledge any individual, group, institution or service.
+* [Catia Silva](https://faculty.eng.ufl.edu/catia-silva/)
+* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
+* [Img Shields](https://shields.io)
+* [Choose an Open Source License](https://choosealicense.com)
+* [GitHub Pages](https://pages.github.com)
+* [Animate.css](https://daneden.github.io/animate.css)
+* [Loaders.css](https://connoratherton.com/loaders)
+* [Slick Carousel](https://kenwheeler.github.io/slick)
