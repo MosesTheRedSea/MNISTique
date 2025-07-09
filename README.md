@@ -24,7 +24,7 @@ You can include tables or images to summarize your results when and if appropria
 <!-- GETTING STARTED -->
 ## Getting Started
 
-In this section you should provide instructions on how to use this repository to recreate your project locally.
+Project Structure
 
 ```
 ├── templates/                    # Templates and guidelines
