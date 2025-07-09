@@ -15,9 +15,9 @@
 <!-- ABOUT THE PROJECT -->
 ## Introduction
 
-- MNISTique V1 is a neural network project built for handwritten digit classification using the MNIST dataset. Designed as an educational and practical exploration of deep learning fundamentals, the project demonstrates how a feedforward neural network can effectively learn to identify digits (0–9) from grayscale 28x28 pixel images.
+MNISTique V1 is a neural network project built for handwritten digit classification using the MNIST dataset. Designed as an educational and practical exploration of deep learning fundamentals, the project demonstrates how a feedforward neural network can effectively learn to identify digits (0–9) from grayscale 28x28 pixel images.
 
-[Here goes the title with hyperlink](https://github.com/catiaspsilva/README-template)
+[MNISTique-V1](https://github.com/MosesTheRedSea/MNISTique)
 
 You can include tables or images to summarize your results when and if appropriate.
 
