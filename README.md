@@ -27,36 +27,19 @@ You can include tables or images to summarize your results when and if appropria
 Project Structure
 
 ```
-├── common
-│   ├── plot_utils.py
-│   └── utils.py
-├── data
+project_root/
+├── common/
+├── data/
 │   └── SETUP.md
-├── experiments
+├── experiments/
 │   └── config.yaml
-├── models
-│   ├── hardcoded
-│   │   ├── _baseNetwork.py
-│   │   ├── evaluate.py
-│   │   ├── softmax_regression.py
-│   │   ├── train.py
-│   │   └── two_layer_nn.py
-│   └── torch
-│       ├── mystique.py
-│       └── train.py
+├── models/
+│   ├── hardcoded/
+│   └── torch/
+├── optimizer/
+├── tests/
 ├── Mystique.jpg
-├── optimizer
-│   ├── _base_optimizer.py
-│   ├── __init__.py
-│   └── sgd.py
-├── README.md
-└── tests
-    ├── __init__.py
-    ├── test_activation.py
-    ├── test_loading.py
-    ├── test_loss.py
-    ├── test_network.py
-    └── test_trianing.py
+└── README.md
 ```
 
 ### Dependencies
