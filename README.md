@@ -27,19 +27,18 @@ You can include tables or images to summarize your results when and if appropria
 Project Structure
 
 ```
-project_root/
-├── common/
-├── data/
-│   └── SETUP.md
-├── experiments/
-│   └── config.yaml
-├── models/
-│   ├── hardcoded/
-│   └── torch/
-├── optimizer/
-├── tests/
-├── Mystique.jpg
-└── README.md
+| Path                    | Description                              |
+|-------------------------|------------------------------------------|
+| `common/`               | Shared utilities and plotting tools      |
+| `data/SETUP.md`         | Dataset setup instructions               |
+| `experiments/`          | Experiment configuration files           |
+| `models/`               | All model-related code                   |
+| `models/hardcoded/`     | NumPy-based hardcoded models             |
+| `models/torch/`         | PyTorch-based neural network models      |
+| `optimizer/`            | Custom optimizers (e.g., SGD)            |
+| `tests/`                | Unit tests for models and components     |
+| `Mystique.jpg`          | Sample or reference image                |
+| `README.md`             | Project documentation and instructions   |
 ```
 
 ### Dependencies
