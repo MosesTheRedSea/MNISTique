@@ -27,15 +27,36 @@ You can include tables or images to summarize your results when and if appropria
 Project Structure
 
 ```
-├── templates/                    # Templates and guidelines
-│   ├── basic_ml_design_doc.md   # Basic template for ML design docs
-│   └── design_doc_checklist.md  # Review checklist for design docs
-├── Design_Doc_Examples/         # Example design documents
-│   ├── EN/                      # English examples
-│   └── [other languages]/       # Examples in other languages
-├── BookOutline.md              # Book chapter summaries and key concepts
-├── CONTRIBUTING.md             # Contribution guidelines
-└── README.md                   # This file
+├── common
+│   ├── plot_utils.py
+│   └── utils.py
+├── data
+│   └── SETUP.md
+├── experiments
+│   └── config.yaml
+├── models
+│   ├── hardcoded
+│   │   ├── _baseNetwork.py
+│   │   ├── evaluate.py
+│   │   ├── softmax_regression.py
+│   │   ├── train.py
+│   │   └── two_layer_nn.py
+│   └── torch
+│       ├── mystique.py
+│       └── train.py
+├── Mystique.jpg
+├── optimizer
+│   ├── _base_optimizer.py
+│   ├── __init__.py
+│   └── sgd.py
+├── README.md
+└── tests
+    ├── __init__.py
+    ├── test_activation.py
+    ├── test_loading.py
+    ├── test_loss.py
+    ├── test_network.py
+    └── test_trianing.py
 ```
 
 ### Dependencies
