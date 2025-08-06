@@ -25,18 +25,20 @@ MNISTique V1 is a neural network project built for handwritten digit classificat
 Project Structure
 
 ```
-| Path                  | Description                              |
-|-----------------------|------------------------------------------|
-| common/               | Shared utilities and plotting tools      |
-| data/SETUP.md         | Dataset setup instructions               |
-| experiments/          | Experiment configuration files           |
-| models/               | All model-related code                   |
-| models/hardcoded/     | NumPy-based hardcoded models             |
-| models/torch/         | PyTorch-based neural network models      |
-| optimizer/            | Custom optimizers (e.g., SGD)            |
-| tests/                | Unit tests for models and components     |
-| Mystique.jpg          | Sample or reference image                |
-| README.md             | Project documentation and instructions   |
+|-----------------------|-------------|------------------------------------------|
+| Path                  | Type        | Description                              |
+|-----------------------|-------------|------------------------------------------|
+| common/               | Directory   | Shared utilities and plotting tools      |
+| data/SETUP.md         | Markdown    | Dataset setup instructions               |
+| experiments/          | Directory   | Experiment configuration files           |
+| models/               | Directory   | All model-related code                   |
+| models/hardcoded/     | Directory   | NumPy-based hardcoded models             |
+| models/torch/         | Directory   | PyTorch-based neural network models      |
+| optimizer/            | Directory   | Custom optimizers (e.g., SGD)            |
+| tests/                | Directory   | Unit tests for models and components     |
+| Mystique.jpg          | Image       | Sample or reference image                |
+| README.md             | Markdown    | Project documentation and instructions   |
+|-----------------------|-------------|------------------------------------------|
 ```
 
 ### Dependencies
