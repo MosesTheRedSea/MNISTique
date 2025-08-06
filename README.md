@@ -22,7 +22,7 @@ MNISTique V1 is a neural network project built for handwritten digit classificat
 <!-- GETTING STARTED -->
 ## Getting Started
 
-Project Structure
+### Project Structure
 
 ```
 |-----------------------|-------------|------------------------------------------|
