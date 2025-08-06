@@ -19,8 +19,6 @@ MNISTique V1 is a neural network project built for handwritten digit classificat
 
 [MNISTique-V1](https://github.com/MosesTheRedSea/MNISTique)
 
-You can include tables or images to summarize your results when and if appropriate.
-
 <!-- GETTING STARTED -->
 ## Getting Started
 
