@@ -24,22 +24,16 @@ MNISTique V1 is a neural network project built for handwritten digit classificat
 
 ### Project Structure
 
-```
-|-----------------------|-------------|------------------------------------------|
-| Path                  | Type        | Description                              |
-|-----------------------|-------------|------------------------------------------|
-| common/               | Directory   | Shared utilities and plotting tools      |
-| data/SETUP.md         | Markdown    | Dataset setup instructions               |
-| experiments/          | Directory   | Experiment configuration files           |
-| models/               | Directory   | All model-related code                   |
-| models/hardcoded/     | Directory   | NumPy-based hardcoded models             |
-| models/torch/         | Directory   | PyTorch-based neural network models      |
-| optimizer/            | Directory   | Custom optimizers (e.g., SGD)            |
-| tests/                | Directory   | Unit tests for models and components     |
-| Mystique.jpg          | Image       | Sample or reference image                |
-| README.md             | Markdown    | Project documentation and instructions   |
-|-----------------------|-------------|------------------------------------------|
-```
+
+- [common/](./common) – Utility functions and plotting tools shared across the codebase.
+- [data/SETUP.md](./data/SETUP.md) – Instructions for preparing and organizing datasets.
+- [experiments/](./experiments) – Config files for training parameters and experiment settings.
+- [models/hardcoded/](./models/hardcoded) – NumPy-based models for foundational or educational use.
+- [models/torch/](./models/torch) – PyTorch models for scalable neural network training.
+- [optimizer/](./optimizer) – Custom optimizers (e.g., SGD), modular and training-ready.
+- [tests/](./tests) – Unit tests for models, utilities, and training logic.
+- [Mystique.jpg](./Mystique.jpg) – Sample image used for visualization or demos.
+- [README.md](./README.md) – Main documentation and usage instructions.
 
 ### Dependencies
 
