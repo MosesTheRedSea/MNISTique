@@ -22,9 +22,8 @@ MNISTique V1 is a neural network project built for handwritten digit classificat
 <!-- GETTING STARTED -->
 ## Getting Started
 
+
 ### Project Structure
-
-
 - [common/](./common) – Utility functions and plotting tools shared across the codebase.
 - [data/SETUP.md](./data/SETUP.md) – Instructions for preparing and organizing datasets.
 - [experiments/](./experiments) – Config files for training parameters and experiment settings.
@@ -36,83 +35,56 @@ MNISTique V1 is a neural network project built for handwritten digit classificat
 
 ### Dependencies
 
-Here, list all libraries, packages and other dependencies that need to be installed to run your project. Include library versions and how they should be installed if a special requirement is needed.
-
-For example, this is how you would list them:
-* Transformers 4.8.0
-  ```sh
-  conda install -c conda-forge transformers
-  ```
-* OpenCV 4.5.2
-  ```sh
-  conda install -c conda-forge opencv
-  ```
-### Alternative: Export your Environment
-
-Alternatively, you can export your Python working environment, push it to your project's repository and allow users to clone it locally. This way, anyone can install it and they will have all dependencies needed. Here is how you export a copy of your Python environment:
-
-  ```sh
-  conda env export > requirements.yml
-  ```
-
-The user will be able to recreate it using:
-
-  ```sh
-  conda env create -f requirements.yml
-  ```
+- torch==2.6.0 | Core library for building and training neural networks (PyTorch).
+- matplotlib | Library for creating plots and visualizations of data and training results.
+- numpy | Fundamental package for numerical computations and handling arrays efficiently.
+- pyyaml | Library to read and write YAML configuration files.
+- requests | Simple HTTP library for making web requests and fetching data.
 
 ### Installation
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/catiaspsilva/README-template.git
+   git clone https://github.com/MosesTheRedSea/MNISTique.git
    ```
-2. Setup (and activate) your environment
-  ```sh
-  conda env create -f requirements.yml
-  ```
+   
+2. Setup Your Virtual Python Environment
+   ```sh
+   uv sync || uv run pyproject.toml
+   ```
+3. Activate The Virtual Python Environment
+   ```sh
+   source .venv/bin/activate
+   ```
 
 <!-- USAGE EXAMPLES -->
-## Usage
+## Running Models
 
-Use this space to show useful examples of how a project can be used. For course projects, include which file to execute and the format of any input variables.
+You can train different models on the MNISTique dataset using the <code>train.py</code> script and the <code>--model</code> argument. This allows you to choose which model to run without modifying the code.
 
-Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+### Hardcoded
+- Train the Softmax Model
+  ```sh
+  python train.py --model softmax
+  ```
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+- Train the Two-Layer Neural Network Model
+  ```sh
+  python train.py --model twolayer
+  ```
+  
+### Torch
 
-<!-- ROADMAP -->
-## Roadmap
+- Train MNISTique Model
+  ```sh
+  python train.py 
+  ```
+### Command-Line Arguments
 
-See the [open issues](https://github.com/catiaspsilva/README-template/issues) for a list of proposed features (and known issues).
+`--model` Required. Choose which model to train. Options: `softmax` or `twolayer`.
 
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
+`-h`, `--help` | Show the help message with usage information.
 
 <!-- Authors -->
 ## Authors
 Moses Adewolu - [@MosesTheRedSea](https://twitter.com/MosesTheRedSea) [mosesoluwatobiadewolu@gmail.com](mosesoluwatobiadewolu@gmail.com)
-
-Project Link: [https://github.com/MosesTheRedSea/MNISTique.git](https://github.com/MosesTheRedSea/MNISTique.git)
-
-
-<!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
-
-You can acknowledge any individual, group, institution or service.
-* [Catia Silva](https://faculty.eng.ufl.edu/catia-silva/)
