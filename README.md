@@ -43,19 +43,20 @@ MNISTique V1 is a neural network project built for handwritten digit classificat
 
 ### Installation
 
-1. Clone the repo
-   ```sh
-   git clone https://github.com/MosesTheRedSea/MNISTique.git
-   ```
+Clone the repo
+ ```sh
+ git clone https://github.com/MosesTheRedSea/MNISTique.git
+ ```
    
-2. Setup Your Virtual Python Environment
-   ```sh
-   uv sync || uv run pyproject.toml
-   ```
-3. Activate The Virtual Python Environment
-   ```sh
-   source .venv/bin/activate
-   ```
+Setup Your Virtual Python Environment
+ ```sh
+ uv sync || uv run pyproject.toml
+ ```
+
+Activate The Virtual Python Environment
+ ```sh
+ source .venv/bin/activate
+ ```
 
 <!-- USAGE EXAMPLES -->
 ## Running Models
@@ -63,28 +64,27 @@ MNISTique V1 is a neural network project built for handwritten digit classificat
 You can train different models on the MNISTique dataset using the <code>train.py</code> script and the <code>--model</code> argument. This allows you to choose which model to run without modifying the code.
 
 ### Hardcoded
-- Train the Softmax Model
+  Train the Softmax Model
   ```sh
   python train.py --model softmax
   ```
-
-- Train the Two-Layer Neural Network Model
+  
+  Train the Two-Layer Neural Network Model
   ```sh
   python train.py --model twolayer
   ```
   
 ### Torch
 
-- Train MNISTique Model
+Train MNISTique Model
   ```sh
   python train.py 
   ```
+
 ### Command-Line Arguments
 
 `--model` Required. Choose which model to train. Options: `softmax` or `twolayer`.
 
 `-h`, `--help` | Show the help message with usage information.
 
-<!-- Authors -->
-## Authors
-Moses Adewolu - [@MosesTheRedSea](https://twitter.com/MosesTheRedSea) [mosesoluwatobiadewolu@gmail.com](mosesoluwatobiadewolu@gmail.com)
+
