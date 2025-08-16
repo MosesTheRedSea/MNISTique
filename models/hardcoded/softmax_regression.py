@@ -8,9 +8,11 @@ class SoftmaxRegression(_baseNetwork):
         self._weight_init()
 
     def _weight_init(self):
+
         np.random.seed(1024)
 
         self.weights['W1'] = 0.001 * np.randn(self.input_size, self.num_classes)
+        
         self.gradient['W1'] = np.zeros((self.input_size, self.num_classes))
 
     def forward(self, X, y, mode='train'):

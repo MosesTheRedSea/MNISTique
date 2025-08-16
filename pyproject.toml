@@ -1,0 +1,15 @@
+[project]
+name = "MNISTque-virtual-environment"
+version = "0.1.0"
+description = "MNISTque is a lightweight yet powerful neural network designed to classify handwritten digits from the classic MNIST dataset with high accuracy and efficiency"
+readme = "README.md"
+requires-python = ">=3.10"
+
+dependencies = [
+    "torch==2.6.0",
+    "matplotlib",
+    "numpy",
+    "pyyaml",
+    "requests"
+    
+]
