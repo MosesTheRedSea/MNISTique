@@ -31,7 +31,6 @@ MNISTique V1 is a neural network project built for handwritten digit classificat
 - [models/hardcoded/](./models/hardcoded) – NumPy-based models for foundational or educational use.
 - [models/torch/](./models/torch) – PyTorch models for scalable neural network training.
 - [optimizer/](./optimizer) – Custom optimizers (e.g., SGD), modular and training-ready.
-- [tests/](./tests) – Unit tests for models, utilities, and training logic.
 - [Mystique.jpg](./Mystique.jpg) – Sample image used for visualization or demos.
 - [README.md](./README.md) – Main documentation and usage instructions.
 
