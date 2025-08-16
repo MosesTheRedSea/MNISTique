@@ -7,8 +7,8 @@
   <h3 align="center">MNISTique</h3>
   <p align="center">
     <a href="https://github.com/catiaspsilva/README-template/blob/main/images/docs.txt"><strong>Documentaton</strong></a>
-    <a href="https://github.com/catiaspsilva/README-template/issues">Report Bug</a>
-    <a href="https://github.com/catiaspsilva/README-template/issues">Add New Feature</a>
+    <a href="https://github.com/MosesTheRedSea/MNISTique/issues">Report Bug</a>
+    <a href="https://github.com/MosesTheRedSea/MNISTique/issues">Add New Feature</a>
   </p>
 </p>
 
